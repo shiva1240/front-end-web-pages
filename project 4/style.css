@@ -1,0 +1,236 @@
+.upper {
+    justify-content: center;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding : 2px 2px;
+    margin: 2px 2px;
+    /* border: 2px solid red; */
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+    background: url('img/back-1.jpg') center center/cover;
+}
+
+.container-1{
+    display: flex;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+.container-1::before{
+    content: "";
+    background-color: rgb(186, 186, 186);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+}
+.container-1 ul{
+    display: flex;
+    list-style: none;
+}
+.container-1 ul li a{
+    text-decoration: none;
+    padding: 3px 90px;
+    display: block;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.container-1 ul li a:hover{
+    color: white;
+    background-color: black;
+}
+.bacground img{
+    height: 100%;
+    width: 100%;
+    opacity: .5;
+}
+
+/* first page  */
+.box{
+    padding: 2px 2px;
+    margin: 2px 2px;
+    display: flex;
+    background: url('img/back-2.jpg') center center/cover;
+}
+.box-1{
+    border: 2px solid #5a4141;
+    padding: 17px 43px;
+    margin: 30px 67px;
+    height: 377px;
+    width: 601px;
+    border-radius: 10px;
+    background: url('img/shayri-1.jpg')center center/cover;
+    
+
+}
+.box-1:hover{
+    box-shadow: 10px 10px 10px rgb(149, 149, 149);
+    cursor: pointer;
+}
+.box-2{
+    border: 2px solid #5a4141;
+    padding: 17px 43px;
+    margin: 30px 67px;
+    height: 377px;
+    width: 601px;
+    border-radius: 10px;
+    background: url('img/shayri-2.jpg')center center/cover;
+
+}
+.box-2:hover{
+    box-shadow: 10px 10px 10px rgb(149, 149, 149);
+    cursor: pointer;
+}
+/* second page  */
+.page-2{
+    padding: 2px 2px;
+    margin: 2px 2px;
+    display: flex;
+    /* height: 250px; */
+    /* width: 350px; */
+    background: url('img/back-3.jpg') center center/cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.box-3{
+    border: 2px solid #5a4141;
+    padding: 17px 43px;
+    margin: 30px 67px;
+    height: 377px;
+    width: 601px;
+    border-radius: 10px;
+    background: url('img/shayri-3.jpg')center center/cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.box-3:hover{
+    box-shadow: 10px 10px 10px rgb(149, 149, 149);
+    cursor: pointer;
+}
+.box-4{
+    border: 2px solid #5a4141;
+    padding: 17px 43px;
+    margin: 30px 67px;
+    height: 377px;
+    width: 601px;
+    border-radius: 10px;
+    background: url('img/shayri-4.jpg')center center/cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.box-4:hover{
+    box-shadow: 10px 10px 10px rgb(149, 149, 149);
+    cursor: pointer;
+}
+/* third page  */
+.page-3{
+    padding: 2px 2px;
+    margin: 2px 2px;
+    display: flex;
+    /* height: 250px; */
+    /* width: 350px; */
+    background: url('img/back-4.jpg') center center/cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.box-5{
+    border: 2px solid #5a4141;
+    padding: 17px 43px;
+    margin: 30px 67px;
+    height: 377px;
+    width: 601px;
+    border-radius: 10px;
+    background: url('img/shayri-5.jpg')center center/cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.box-5:hover{
+    box-shadow: 10px 10px 10px rgb(149, 149, 149);
+    cursor: pointer;
+}
+.box-6{
+    border: 2px solid #5a4141;
+    padding: 17px 43px;
+    margin: 30px 67px;
+    height: 377px;
+    width: 601px;
+    border-radius: 10px;
+    background: url('img/shayri-6.jpg')center center/cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.box-6:hover{
+    box-shadow: 10px 10px 10px rgb(149, 149, 149);
+    cursor: pointer;
+}
+
+/* form  */
+.form{
+  background: url('img/back-5.jpg') center center/cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+h3{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 25px;
+}
+.styleform{
+    padding: 39px 42px;
+    margin: 9px 460px;
+    border: 2px solid rgb(137, 137, 137);
+    border-radius: 10px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.styleform label{
+    color: black;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.styleform input textarea{
+    height: 39px;
+    width: 25px;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    background-color: bisque;
+    width: 300px;
+    height: 35px;
+}
+textarea{
+    background-color: aliceblue;
+}
+.styleform button{
+    height: 39px;
+    width: 132px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(11, 36, 36);
+    color: white;
+}
+.styleform button:hover{
+    background-color: rgb(39, 12, 76);
+box-shadow: 3px 3px 5px rgb(77, 0, 42);}
+    
